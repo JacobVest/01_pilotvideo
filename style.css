@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+  background-size: cover;
+}
+
+h1 {
+  font-family: "Unica One", sans-serif;
+  font-size: 13cqb;
+  text-align: center;
+  color: lightcoral;
+}
+
+h2 {
+  font-family: "Unica One", sans-serif;
+  font-size: 9cqb;
+  text-align: left;
+  text-align: center;
+  color: lightcoral;
+  padding-top: 10%;
+  padding-bottom: 1%;
+}
+
+h3 {
+  font-family: "Unica One", sans-serif;
+  font-size: 2.5cqb;
+  text-align: left;
+  color: lightcoral;
+  margin-left: 120px;
+}
+
+footer h3 {
+  padding-bottom: 2%;
+  text-align: center;
+  margin-left: 0;
+}
+
+header {
+  padding: 7%;
+}
+
+body {
+  background-color: brown;
+}
+.iframe-wrapper {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-top: calc(85% / (16 / 9));
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  inset: 0;
+  max-width: 1200px;
+  aspect-ratio: 16 / 9;
+  border: black solid 5px;
+}
+
+.stort_billede {
+  display: block;
+  place-items: center;
+  margin: 0 auto;
+  aspect-ratio: 16/9;
+  border-bottom: solid lightcoral 5px;
+  border-top: solid lightcoral 5px;
+}
+
+.container {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  padding-top: 10%;
+}
+
+.container img {
+  padding: 2%;
+  /* margin: 5px auto; */
+  max-width: 500px;
+  place-items: center;
+  /* border: solid black 5px; */
+  background-color: lightcoral;
+}
